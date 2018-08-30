@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C38E132B44632A1755AD2E /* Pods_Anil_Wipro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0504D5165587B6BF645B0661 /* Pods_Anil_Wipro.framework */; };
+		F414F940213598250036A7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F93F213598250036A7C3 /* AppDelegate.swift */; };
+		F414F947213598400036A7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F414F946213598400036A7C3 /* Assets.xcassets */; };
+		F414F94A213598400036A7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F414F948213598400036A7C3 /* LaunchScreen.storyboard */; };
+		F414F955213598410036A7C3 /* Anil_WiproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F954213598410036A7C3 /* Anil_WiproTests.swift */; };
+		F414F96421359C190036A7C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F96321359C190036A7C3 /* Constants.swift */; };
+		F414F9662135A8950036A7C3 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F9652135A8950036A7C3 /* Connection.swift */; };
+		F414F96A2135B80F0036A7C3 /* CanadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F9692135B80F0036A7C3 /* CanadaViewController.swift */; };
+		F414F96C2135BC5C0036A7C3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414F96B2135BC5C0036A7C3 /* CustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F414F951213598410036A7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F414F934213598250036A7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F414F93B213598250036A7C3;
+			remoteInfo = Anil_Wipro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0504D5165587B6BF645B0661 /* Pods_Anil_Wipro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anil_Wipro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4BB49BB01C76ECB4C63182 /* Pods-Anil_Wipro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anil_Wipro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anil_Wipro/Pods-Anil_Wipro.release.xcconfig"; sourceTree = "<group>"; };
+		EE47E8FED2EB84159EBC0D3B /* Pods-Anil_Wipro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anil_Wipro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anil_Wipro/Pods-Anil_Wipro.debug.xcconfig"; sourceTree = "<group>"; };
+		F414F93C213598250036A7C3 /* Anil_Wipro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anil_Wipro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414F93F213598250036A7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F414F946213598400036A7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F414F949213598400036A7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F414F94B213598400036A7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F414F950213598410036A7C3 /* Anil_WiproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Anil_WiproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414F954213598410036A7C3 /* Anil_WiproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anil_WiproTests.swift; sourceTree = "<group>"; };
+		F414F956213598410036A7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F414F96321359C190036A7C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F414F9652135A8950036A7C3 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		F414F9692135B80F0036A7C3 /* CanadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaViewController.swift; sourceTree = "<group>"; };
+		F414F96B2135BC5C0036A7C3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F414F939213598250036A7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C38E132B44632A1755AD2E /* Pods_Anil_Wipro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414F94D213598410036A7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0573FC600AF2C8F1D3ED338 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE47E8FED2EB84159EBC0D3B /* Pods-Anil_Wipro.debug.xcconfig */,
+				DA4BB49BB01C76ECB4C63182 /* Pods-Anil_Wipro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E97B7C0550EFC6ADE0F1474E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0504D5165587B6BF645B0661 /* Pods_Anil_Wipro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F414F933213598250036A7C3 = {
+			isa = PBXGroup;
+			children = (
+				F414F93E213598250036A7C3 /* Anil_Wipro */,
+				F414F953213598410036A7C3 /* Anil_WiproTests */,
+				F414F93D213598250036A7C3 /* Products */,
+				B0573FC600AF2C8F1D3ED338 /* Pods */,
+				E97B7C0550EFC6ADE0F1474E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F414F93D213598250036A7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F414F93C213598250036A7C3 /* Anil_Wipro.app */,
+				F414F950213598410036A7C3 /* Anil_WiproTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F414F93E213598250036A7C3 /* Anil_Wipro */ = {
+			isa = PBXGroup;
+			children = (
+				F414F93F213598250036A7C3 /* AppDelegate.swift */,
+				F414F9692135B80F0036A7C3 /* CanadaViewController.swift */,
+				F414F96B2135BC5C0036A7C3 /* CustomTableViewCell.swift */,
+				F414F96321359C190036A7C3 /* Constants.swift */,
+				F414F9652135A8950036A7C3 /* Connection.swift */,
+				F414F946213598400036A7C3 /* Assets.xcassets */,
+				F414F948213598400036A7C3 /* LaunchScreen.storyboard */,
+				F414F94B213598400036A7C3 /* Info.plist */,
+			);
+			path = Anil_Wipro;
+			sourceTree = "<group>";
+		};
+		F414F953213598410036A7C3 /* Anil_WiproTests */ = {
+			isa = PBXGroup;
+			children = (
+				F414F954213598410036A7C3 /* Anil_WiproTests.swift */,
+				F414F956213598410036A7C3 /* Info.plist */,
+			);
+			path = Anil_WiproTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F414F93B213598250036A7C3 /* Anil_Wipro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414F959213598410036A7C3 /* Build configuration list for PBXNativeTarget "Anil_Wipro" */;
+			buildPhases = (
+				0E265F036AB03DFA72D47A0E /* [CP] Check Pods Manifest.lock */,
+				F414F938213598250036A7C3 /* Sources */,
+				F414F939213598250036A7C3 /* Frameworks */,
+				F414F93A213598250036A7C3 /* Resources */,
+				030E0D2477D1E578E142A3B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anil_Wipro;
+			productName = Anil_Wipro;
+			productReference = F414F93C213598250036A7C3 /* Anil_Wipro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F414F94F213598410036A7C3 /* Anil_WiproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414F95C213598410036A7C3 /* Build configuration list for PBXNativeTarget "Anil_WiproTests" */;
+			buildPhases = (
+				F414F94C213598410036A7C3 /* Sources */,
+				F414F94D213598410036A7C3 /* Frameworks */,
+				F414F94E213598410036A7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F414F952213598410036A7C3 /* PBXTargetDependency */,
+			);
+			name = Anil_WiproTests;
+			productName = Anil_WiproTests;
+			productReference = F414F950213598410036A7C3 /* Anil_WiproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F414F934213598250036A7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Anil_iOS_developer;
+				TargetAttributes = {
+					F414F93B213598250036A7C3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					F414F94F213598410036A7C3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F414F93B213598250036A7C3;
+					};
+				};
+			};
+			buildConfigurationList = F414F937213598250036A7C3 /* Build configuration list for PBXProject "Anil_Wipro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F414F933213598250036A7C3;
+			productRefGroup = F414F93D213598250036A7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F414F93B213598250036A7C3 /* Anil_Wipro */,
+				F414F94F213598410036A7C3 /* Anil_WiproTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F414F93A213598250036A7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414F94A213598400036A7C3 /* LaunchScreen.storyboard in Resources */,
+				F414F947213598400036A7C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414F94E213598410036A7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030E0D2477D1E578E142A3B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Anil_Wipro/Pods-Anil_Wipro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anil_Wipro/Pods-Anil_Wipro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E265F036AB03DFA72D47A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anil_Wipro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F414F938213598250036A7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414F96A2135B80F0036A7C3 /* CanadaViewController.swift in Sources */,
+				F414F96C2135BC5C0036A7C3 /* CustomTableViewCell.swift in Sources */,
+				F414F940213598250036A7C3 /* AppDelegate.swift in Sources */,
+				F414F96421359C190036A7C3 /* Constants.swift in Sources */,
+				F414F9662135A8950036A7C3 /* Connection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414F94C213598410036A7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414F955213598410036A7C3 /* Anil_WiproTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F414F952213598410036A7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F414F93B213598250036A7C3 /* Anil_Wipro */;
+			targetProxy = F414F951213598410036A7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F414F948213598400036A7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F414F949213598400036A7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F414F957213598410036A7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F414F958213598410036A7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F414F95A213598410036A7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE47E8FED2EB84159EBC0D3B /* Pods-Anil_Wipro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GZEJ5HA3G;
+				INFOPLIST_FILE = Anil_Wipro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifocus.Anil-Wipro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F414F95B213598410036A7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4BB49BB01C76ECB4C63182 /* Pods-Anil_Wipro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GZEJ5HA3G;
+				INFOPLIST_FILE = Anil_Wipro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifocus.Anil-Wipro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F414F95D213598410036A7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GZEJ5HA3G;
+				INFOPLIST_FILE = Anil_WiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifocus.Anil-WiproTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anil_Wipro.app/Anil_Wipro";
+			};
+			name = Debug;
+		};
+		F414F95E213598410036A7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GZEJ5HA3G;
+				INFOPLIST_FILE = Anil_WiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifocus.Anil-WiproTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anil_Wipro.app/Anil_Wipro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F414F937213598250036A7C3 /* Build configuration list for PBXProject "Anil_Wipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414F957213598410036A7C3 /* Debug */,
+				F414F958213598410036A7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414F959213598410036A7C3 /* Build configuration list for PBXNativeTarget "Anil_Wipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414F95A213598410036A7C3 /* Debug */,
+				F414F95B213598410036A7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414F95C213598410036A7C3 /* Build configuration list for PBXNativeTarget "Anil_WiproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414F95D213598410036A7C3 /* Debug */,
+				F414F95E213598410036A7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F414F934213598250036A7C3 /* Project object */;
+}
